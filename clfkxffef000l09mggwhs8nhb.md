@@ -6,7 +6,7 @@ cuid: clfkxffef000l09mggwhs8nhb
 slug: secure-c-code
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679584447685/9c8386b3-b07f-4265-a817-c61875bf4269.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1679564611477/668c6929-ee09-48be-b7bc-be33797b59de.png
-tags: cpp, programming-blogs, security, hacking
+tags: cpp, programming-blogs, security, developer
 
 ---
 
