@@ -4,7 +4,7 @@ datePublished: Fri Mar 24 2023 01:30:39 GMT+0000 (Coordinated Universal Time)
 cuid: clflv8l3b01bz5unv28db7eox
 slug: clamav-an-open-source-antivirus-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679590162429/adc53f77-ac0c-404c-bf57-7992ecf29d8f.png
-tags: linux, opensource, security
+tags: linux, opensource, security, devops
 
 ---
 
