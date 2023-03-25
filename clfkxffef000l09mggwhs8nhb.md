@@ -1,12 +1,13 @@
 ---
 title: "10 Essential Tips for Writing Secure C++ Code"
-seoTitle: "Secure Coding in C"
+seoTitle: "Write Secure C++ Code: 10 Essential Tips You Need to Know"
+seoDescription: ""10 Essential Tips for Writing Secure C++ Code" - Learn practical tips for writing more secure code, from avoiding vulnerabilities to using smart pointers."
 datePublished: Thu Mar 23 2023 09:44:11 GMT+0000 (Coordinated Universal Time)
 cuid: clfkxffef000l09mggwhs8nhb
 slug: secure-c-code
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679584447685/9c8386b3-b07f-4265-a817-c61875bf4269.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1679564611477/668c6929-ee09-48be-b7bc-be33797b59de.png
-tags: cpp, programming-blogs, security, developer
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1679735091521/750b4243-7d11-4bb3-b169-5f96d0e46509.png
+tags: cpp, programming-blogs, security, developer, programming-tips
 
 ---
 
