@@ -69,7 +69,7 @@ else:
 1. **Limit rate of requests:** API rate limiting is a process of limiting the number of requests a user can make to your API in a certain time period. By rate limiting requests, you can prevent denial of service attacks and ensure that your API is available for all users.
     
 
-Python provides several libraries for rate limiting, including `ratelimit` and `flask-limiter`. Here's an example using `ratelimit` to limit the rate of requests to an API endpoint:  
+Python provides several libraries for rate limiting, including `ratelimit` and `flask-limiter`. Here's an example using `ratelimit` to limit the rate of requests to an API endpoint:
 
 ```python
 from flask import Flask
@@ -137,12 +137,12 @@ print(result)
 
 In this example, we're using the `ast.literal_eval` function to safely evaluate a string as a Python expression. The `ast.literal_eval` function only evaluates literals such as strings, numbers, and tuples, making it safe to use in untrusted environments.
 
-1. **Using** `os.system` **or** [`subprocess.call`](http://subprocess.call)
+1. **Using** `os.system` **or** `subprocess.call`
     
 
-The `os.system` and [`subprocess.call`](http://subprocess.call) functions in Python are used to execute shell commands. However, using these functions can lead to command injection vulnerabilities, allowing attackers to execute arbitrary commands on your system.
+The `os.system` and `subprocess.call` functions in Python are used to execute shell commands. However, using these functions can lead to command injection vulnerabilities, allowing attackers to execute arbitrary commands on your system.
 
-Instead of using `os.system` or [`subprocess.call`](http://subprocess.call), consider using the `subprocess.Popen` function, which allows you to execute shell commands with arguments and environment variables.
+Instead of using `os.system` or `subprocess.call`, consider using the `subprocess.Popen` function, which allows you to execute shell commands with arguments and environment variables.
 
 Here's an example of how to use `subprocess.Popen`:
 
@@ -162,6 +162,6 @@ In this example, we're using the `subprocess.Popen` function to execute the `ls 
 
 In conclusion, securing your Python API is crucial to protect your system from potential attacks. By avoiding insecure functions and implementing secure alternatives, you can significantly reduce the risk of vulnerabilities in your API.
 
-In this blog, we discussed three insecure functions commonly used in APIs and provided alternative secure solutions. By avoiding the use of the `pickle` module, `eval` and `exec` functions, and `os.system` or [`subprocess.call`](http://subprocess.call) functions, and implementing secure alternatives such as JSON or XML serialization, `ast.literal_eval`, and `subprocess.Popen`, you can ensure the security of your API.
+In this blog, we discussed three insecure functions commonly used in APIs and provided alternative secure solutions. By avoiding the use of the `pickle` module, `eval` and `exec` functions, and `os.system` or `subprocess.call` functions, and implementing secure alternatives such as JSON or XML serialization, `ast.literal_eval`, and `subprocess.Popen`, you can ensure the security of your API.
 
 It's important to keep in mind that security is an ongoing process, and you should regularly review and update your API's security measures to stay ahead of potential threats. With a proactive approach to security and the implementation of best practices, you can keep your Python API secure and protect your system from malicious attacks.
