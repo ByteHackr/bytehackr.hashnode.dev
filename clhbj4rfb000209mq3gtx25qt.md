@@ -83,8 +83,7 @@ By using these techniques, developers can detect Out of Bounds Write errors and 
 
 Out of Bounds Write vulnerabilities are dangerous as they can lead to memory corruption, exploitation by attackers, denial of service attacks, and data leakage. These vulnerabilities can be prevented by following secure coding guidelines and best practices in programming.
 
-1. ### Use Bound Checking Functions
-    
+### Use Bound Checking Functions
 
 One of the easiest ways to prevent Out of Bounds Write errors is to use bound checking functions. These functions check whether a program is attempting to write outside of the bounds of an allocated memory buffer. Examples of such functions include `memcpy_s`, `strncpy_s`, and `sprintf_s`. These functions take additional parameters that specify the size of the destination buffer, preventing the program from writing beyond its bounds.
 
@@ -98,8 +97,7 @@ strncpy_s(dst, sizeof(dst), src, sizeof(dst) - 1);
 
 In this example, we have a source string `src` with the value "Hello, world!" and a destination character array `dst` with a size of 10. To prevent Out of Bounds Write, we use `strncpy_s` to copy the source string to the destination array, specifying the size of the destination buffer as the second parameter.
 
-1. ### Use Language Features
-    
+### Use Language Features
 
 Some programming languages provide built-in features to prevent Out of Bounds Write errors. For example, C++ provides the `std::vector` and `std::array` containers, which automatically manage the memory allocation and resizing of arrays. These containers provide bounds checking and exception handling, making it more difficult to write outside of their bounds.
 
@@ -117,8 +115,7 @@ for (int i = 0; i < v.size(); i++) {
 
 In this example, we use the `std::vector` container to store an array of integers with a size of 10. Since `std::vector` manages the memory allocation and resizing of the array, we don't have to worry about Out of Bounds Write errors. We can safely access and modify the elements within the bounds of the vector using the subscript operator `[]`.
 
-1. ### Avoid Unsafe Functions
-    
+### Avoid Unsafe Functions
 
 Certain functions, such as `strcpy` and `sprintf`, do not perform bounds checking and can lead to Out of Bounds Write errors. Developers should avoid using these functions whenever possible and opt for safer alternatives, such as `strncpy_s` and `snprintf`.
 
@@ -132,8 +129,7 @@ snprintf(dst, sizeof(dst), "%s", src);
 
 In this example, we have a source string `src` with the value "Hello, world!" and a destination character array `dst` with a size of 10. Instead of using `sprintf`, which can lead to Out of Bounds Write errors, we use `snprintf` to copy the source string to the destination array, specifying the size of the destination buffer as the second parameter.
 
-1. ### Allocate Sufficient Memory
-    
+### Allocate Sufficient Memory
 
 To prevent Out of Bounds Write errors, developers should allocate sufficient memory to hold the data that their program will write. For example, consider the following code:
 
@@ -149,8 +145,7 @@ char* str = new char[14]; // allocate a buffer of size 14
 strcpy(str, "Hello, World!"); // safer write
 ```
 
-1. ### Use Static Analysis Tools
-    
+### Use Static Analysis Tools
 
 Static analysis tools can detect potential Out of Bounds Write errors before a program is executed. For example, consider the following code:
 
