@@ -8,6 +8,8 @@ tags: cpp, programming-blogs, security, learning, coding
 
 ---
 
+## Understanding Out-of-Bounds Write in C++
+
 Out of Bounds Write(CWE-787) is a type of programming error that occurs when a program writes data beyond the bounds of an allocated memory buffer. This can happen when a program tries to write data to an index that is outside the range of indices allocated for that buffer. Let's take a look at an example in C++:
 
 ```cpp
