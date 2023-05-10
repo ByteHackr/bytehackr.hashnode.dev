@@ -4,6 +4,7 @@ datePublished: Sat May 06 2023 05:13:28 GMT+0000 (Coordinated Universal Time)
 cuid: clhbj4rfb000209mq3gtx25qt
 slug: 5-way-to-prevent-out-of-bounds-write
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683724874020/9e93cca5-16a2-411f-9ad9-83441bdfcc8b.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1683733366489/2aacf00f-7eee-4bbb-aa46-d74bdbadd454.png
 tags: cpp, programming-blogs, security, learning, coding
 
 ---
