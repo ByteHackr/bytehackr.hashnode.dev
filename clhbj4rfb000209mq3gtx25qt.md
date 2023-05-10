@@ -3,7 +3,7 @@ title: "5 Way to Prevent Out of Bounds Write"
 datePublished: Sat May 06 2023 05:13:28 GMT+0000 (Coordinated Universal Time)
 cuid: clhbj4rfb000209mq3gtx25qt
 slug: 5-way-to-prevent-out-of-bounds-write
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683349908216/1b8ce0b8-8f5d-4b57-9fe0-a02871ded9d6.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683724874020/9e93cca5-16a2-411f-9ad9-83441bdfcc8b.png
 tags: cpp, programming-blogs, security, learning, coding
 
 ---
