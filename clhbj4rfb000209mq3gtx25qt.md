@@ -1,5 +1,6 @@
 ---
 title: "5 Way to Prevent Out of Bounds Write"
+seoTitle: "5 Way to Prevent Out of Bounds Write"
 datePublished: Sat May 06 2023 05:13:28 GMT+0000 (Coordinated Universal Time)
 cuid: clhbj4rfb000209mq3gtx25qt
 slug: 5-way-to-prevent-out-of-bounds-write
