@@ -1,6 +1,6 @@
 ---
 title: "Understanding and Preventing NULL Pointer Dereference"
-seoTitle: "Top 5 way to Prevent NULL Pointer Dereference"
+seoTitle: "Top 5 Way to Prevent NULL Pointer Dereference"
 datePublished: Wed May 10 2023 16:29:34 GMT+0000 (Coordinated Universal Time)
 cuid: clhhx1n4f000609megz266l0n
 slug: understanding-and-preventing-null-pointer-dereference
