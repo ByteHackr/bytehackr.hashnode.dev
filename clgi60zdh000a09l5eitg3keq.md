@@ -1,5 +1,6 @@
 ---
 title: "Exploring the Use-After-Free Vulnerability"
+seoTitle: "How to Prevent Use-After-Free Vulnerability"
 datePublished: Sat Apr 15 2023 16:01:18 GMT+0000 (Coordinated Universal Time)
 cuid: clgi60zdh000a09l5eitg3keq
 slug: exploring-the-use-after-free-vulnerability
