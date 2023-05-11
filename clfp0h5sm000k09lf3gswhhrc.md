@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
 The `@ratelimit` decorator limits the rate of requests to 10 requests per minute for the `/api` endpoint.
 
-### Examples of <mark>Insecure</mark> Functions:
+### Examples of Insecure Functions
 
 Insecure functions can lead to vulnerabilities in your API, making it easier for attackers to exploit and compromise your system. In this section, we'll discuss a few insecure functions commonly used in APIs and provide alternative secure solutions.
 
