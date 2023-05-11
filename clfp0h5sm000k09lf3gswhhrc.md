@@ -1,6 +1,6 @@
 ---
 title: "Securing Your Python API: 4 Best Practices to Avoid Vulnerabilities"
-seoTitle: "4 Best Practices to Secure Python APIs"
+seoTitle: "4 Best Practices to Secure Python API"
 seoDescription: "Secure Python API with 4 best practices. Avoid insecure functions, implement authentication and access controls, and validate data to avoid vulnerabilities."
 datePublished: Sun Mar 26 2023 06:20:36 GMT+0000 (Coordinated Universal Time)
 cuid: clfp0h5sm000k09lf3gswhhrc
