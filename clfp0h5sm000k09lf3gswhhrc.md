@@ -1,6 +1,6 @@
 ---
 title: "Securing Your Python API: 4 Best Practices to Avoid Vulnerabilities"
-seoTitle: "Securing Your Python API: 4 Best Practices to Avoid Vulnerabilities"
+seoTitle: "4 Best Practices to Securing Your Python API"
 seoDescription: "Secure Python API with 4 best practices. Avoid insecure functions, implement authentication and access controls, and validate data to avoid vulnerabilities."
 datePublished: Sun Mar 26 2023 06:20:36 GMT+0000 (Coordinated Universal Time)
 cuid: clfp0h5sm000k09lf3gswhhrc
@@ -12,8 +12,7 @@ tags: programming-blogs, python, security, apis, developer
 
 Python is a popular language for creating APIs, but security should always be a top concern when building any kind of software. In this blog, we'll cover some best practices for securing Python APIs, and provide detailed examples to help you implement them.
 
-1. **Use HTTPS:** When creating an API, it's important to use HTTPS instead of HTTP. HTTPS is a secure protocol that encrypts all data transmitted between the client and the server. This helps prevent attackers from intercepting sensitive information such as passwords, tokens, or personal data.
-    
+**Use HTTPS:** When creating an API, it's important to use HTTPS instead of HTTP. HTTPS is a secure protocol that encrypts all data transmitted between the client and the server. This helps prevent attackers from intercepting sensitive information such as passwords, tokens, or personal data.
 
 To use HTTPS in Python, you can use the built-in `ssl` library or a third-party library like `requests`. Here's an example using the `requests` library:
 
@@ -25,8 +24,7 @@ response = requests.get('https://example.com', verify=True)
 
 The `verify` parameter set to `True` enables HTTPS verification.
 
-1. **Authenticate requests API:** authentication is a process of verifying the identity of a user or a system. By authenticating requests, you can ensure that only authorized users can access your API. There are several authentication methods you can use, including:
-    
+**Authenticate requests API:** authentication is a process of verifying the identity of a user or a system. By authenticating requests, you can ensure that only authorized users can access your API. There are several authentication methods you can use, including:
 
 * API keys: A simple authentication method where users provide an API key in each request.
     
@@ -44,8 +42,7 @@ headers = {'Authorization': 'APIKEY my-api-key'}
 response = requests.get('https://example.com/api', headers=headers)
 ```
 
-1. **Validate input Data:** Input validation is a process of ensuring that the data sent to your API is in the expected format and meets certain criteria. By validating input data, you can prevent attacks such as SQL injection, XSS, and command injection.
-    
+**Validate input Data:** Input validation is a process of ensuring that the data sent to your API is in the expected format and meets certain criteria. By validating input data, you can prevent attacks such as SQL injection, XSS, and command injection.
 
 Python provides several libraries for input validation, including `jsonschema` and `cerberus`. Here's an example using `cerberus` to validate input data:
 
@@ -66,8 +63,7 @@ else:
     print(validator.errors)
 ```
 
-1. **Limit rate of requests:** API rate limiting is a process of limiting the number of requests a user can make to your API in a certain time period. By rate limiting requests, you can prevent denial of service attacks and ensure that your API is available for all users.
-    
+**Limit rate of requests:** API rate limiting is a process of limiting the number of requests a user can make to your API in a certain time period. By rate limiting requests, you can prevent denial of service attacks and ensure that your API is available for all users.
 
 Python provides several libraries for rate limiting, including `ratelimit` and `flask-limiter`. Here's an example using `ratelimit` to limit the rate of requests to an API endpoint:
 
@@ -92,8 +88,7 @@ The `@ratelimit` decorator limits the rate of requests to 10 requests per minute
 
 Insecure functions can lead to vulnerabilities in your API, making it easier for attackers to exploit and compromise your system. In this section, we'll discuss a few insecure functions commonly used in APIs and provide alternative secure solutions.
 
-1. **Using the** `pickle` **module:**
-    
+**Using the** `pickle` **module:**
 
 The `pickle` module is commonly used in Python to serialize and deserialize data. However, the `pickle` module is insecure and should not be used to serialize and deserialize data from untrusted sources. Attackers can craft malicious payloads that exploit vulnerabilities in the `pickle` module, allowing them to execute arbitrary code on your system.
 
@@ -115,8 +110,7 @@ deserialized_data = json.loads(serialized_data)
 
 In this example, we're using the `json` module to serialize and deserialize data. The `json` module is secure and can be safely used to transmit data over the network.
 
-1. **Using** `eval` **or** `exec:`
-    
+**Using** `eval` **or** `exec:`
 
 The `eval` and `exec` functions in Python are used to execute arbitrary code. However, using these functions can lead to code injection vulnerabilities, allowing attackers to execute malicious code on your system.
 
@@ -137,8 +131,7 @@ print(result)
 
 In this example, we're using the `ast.literal_eval` function to safely evaluate a string as a Python expression. The `ast.literal_eval` function only evaluates literals such as strings, numbers, and tuples, making it safe to use in untrusted environments.
 
-1. **Using** `os.system` **or** `subprocess.call`
-    
+**Using** `os.system` **or** `subprocess.call`
 
 The `os.system` and `subprocess.call` functions in Python are used to execute shell commands. However, using these functions can lead to command injection vulnerabilities, allowing attackers to execute arbitrary commands on your system.
 
