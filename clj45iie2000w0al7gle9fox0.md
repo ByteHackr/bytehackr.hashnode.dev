@@ -3,7 +3,7 @@ title: "Unlocking the Potential of FORTIFY_SOURCE"
 datePublished: Tue Jun 20 2023 10:37:16 GMT+0000 (Coordinated Universal Time)
 cuid: clj45iie2000w0al7gle9fox0
 slug: unlocking-the-potential-of-fortifysource
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1687256864430/bc96c8de-9ee3-4064-99c9-ac8c1effdb06.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1687851602483/3e2b4004-4f37-4a04-b55c-0018f9b96eeb.png
 tags: cpp, software-development, security, developer, coding
 
 ---
