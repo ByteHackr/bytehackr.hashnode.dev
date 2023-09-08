@@ -22,7 +22,7 @@ We must examine the call ***stack***, a vital element of program execution, in o
 
 When a program writes extra data into a buffer that is located on the stack, stack-based buffer overflows happen. The layout of the stack is well-defined and predictable, so attackers can focus on particular memory addresses to run malicious code or alter program logic. For many years, hackers have favoured this weakness.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694179759735/aae8f4d1-27f2-40d2-a8d0-eb099a448878.png align="center")
+![Example of Stack Smashing](https://cdn.hashnode.com/res/hashnode/image/upload/v1694179759735/aae8f4d1-27f2-40d2-a8d0-eb099a448878.png align="center")
 
 ### Enter the Stack-Smashing Protector (SSP)
 
@@ -30,7 +30,7 @@ Think of the stack as a collection of plates, each plate standing in for a funct
 
 ***Here's how it functions:***
 
-***Initialization***\*:\* The stack canary, a random or semi-random value, is created upon program launch.
+***Initialization***: The stack canary, a random or semi-random value, is created upon program launch.
 
 ***Placement:*** In the stack frame of a function, this canary is positioned between the local variables and the saved return address.
 
