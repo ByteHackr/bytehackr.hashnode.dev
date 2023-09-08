@@ -26,9 +26,9 @@ When a program writes extra data into a buffer that is located on the stack, sta
 
 Think of the stack as a collection of plates, each plate standing in for a function call or a data frame. The stack canary resembles a secret plate sandwiched in between the visible plates. Its purpose is to identify any tampering attempts with the stack.
 
-**<mark>Here's how it functions:</mark>**
+***Here's how it functions:***
 
-***Initialization****:* The stack canary, a random or semi-random value, is created upon program launch.
+***Initialization***\*:\* The stack canary, a random or semi-random value, is created upon program launch.
 
 ***Placement:*** In the stack frame of a function, this canary is positioned between the local variables and the saved return address.
 
@@ -74,7 +74,7 @@ gcc -o test test.c -fstack-protector
 
 ### Advantages of SSP
 
-**<mark>Stack-Smashing Protector offers the following major advantages:</mark>**
+***Stack-Smashing Protector offers the following major advantages:***
 
 ***Enhanced Security:*** A strong defense against stack-based buffer overflow attacks, a popular attack method for hackers, is provided by SSP. It assists in preventing unwanted access and code execution by spotting stack manipulation.
 
