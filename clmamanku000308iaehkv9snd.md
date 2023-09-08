@@ -22,6 +22,10 @@ We must examine the call ***stack***, a vital element of program execution, in o
 
 When a program writes extra data into a buffer that is located on the stack, stack-based buffer overflows happen. The layout of the stack is well-defined and predictable, so attackers can focus on particular memory addresses to run malicious code or alter program logic. For many years, hackers have favoured this weakness.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1694179759735/aae8f4d1-27f2-40d2-a8d0-eb099a448878.png align="center")
+
+![](https://www.researchgate.net/profile/Zbigniew-Kalbarczyk/publication/4038604/figure/fig1/AS:339777535660036@1458020685537/Example-of-Stack-Smashing_W640.jpg align="center")
+
 ### Enter the Stack-Smashing Protector (SSP)
 
 Think of the stack as a collection of plates, each plate standing in for a function call or a data frame. The stack canary resembles a secret plate sandwiched in between the visible plates. Its purpose is to identify any tampering attempts with the stack.
