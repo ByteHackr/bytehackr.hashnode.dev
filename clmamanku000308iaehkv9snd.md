@@ -46,7 +46,7 @@ Let's go over a straightforward example to see how SSP functions. Think about a 
 
 ```c
 #include <stdio.h>
-#include <cstring>
+#include <string.h>
 
 void vulnerable_function(char *input) {
     char buffer[64];
