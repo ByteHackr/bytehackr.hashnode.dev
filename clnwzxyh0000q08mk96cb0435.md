@@ -13,8 +13,7 @@ tags: programming-blogs, security, rust, software-engineering
 
 The quest for safer, more reliable programming languages has led to the rise of Rust. Rust is a systems programming language that has safety and performance at its core. It's a language that empowers developers to write code that's not only functional but also secure, robust, and efficient. In this blog, we'll delve deeper into Rust's features and capabilities, and provide code examples to illustrate how it improves basic programming safety.
 
-1. ### Memory Safety and Ownership
-    
+### Memory Safety and Ownership
 
 Memory safety is one of Rust's most distinctive features. Rust eliminates common memory-related errors like null pointer dereferencing, buffer overflows, and data races through its ownership model. Let's explore how it works with some code examples.
 
@@ -30,8 +29,7 @@ rustCopy codefn main() {
 
 In the code above, the ownership of the string data is transferred from `s1` to `s2`. Trying to access `s1` after this move would lead to a compilation error. This prevents dangling pointers and memory-related issues.
 
-1. ### Borrowing and Lifetimes
-    
+### Borrowing and Lifetimes
 
 Rust also enforces strict rules around borrowing and lifetimes to ensure that references to data are valid and safe. Let's consider a code example for borrowing:
 
@@ -49,8 +47,7 @@ fn calculate_length(s: &String) -> usize {
 
 In this example, the `calculate_length` function borrows a reference to the `String` `s`, ensuring that it doesn't take ownership of the string. This way, you can access the string's data without causing any ownership conflicts.
 
-1. ### Type Safety
-    
+### Type Safety
 
 Rust's type system ensures type safety, preventing common runtime errors. Here's an example:
 
@@ -64,8 +61,7 @@ rustCopy codefn main() {
 
 In this code, Rust's type checker prevents the addition of an integer and a string, which would result in a runtime error in many dynamically-typed languages.
 
-1. ### Concurrency and Thread Safety
-    
+### Concurrency and Thread Safety
 
 Rust's ownership system also promotes safe and concurrent programming. Let's consider a simple example using threads:
 
@@ -83,8 +79,7 @@ fn main() {
 
 In this code, Rust ensures that the spawned thread cannot outlive the data it references, avoiding data races and ensuring thread safety.
 
-1. ### Strong Ecosystem
-    
+### Strong Ecosystem
 
 Rust boasts a rich ecosystem of libraries and tools. As a beginner, you can take advantage of these pre-built components to streamline your development process. Here's an example of using a popular library, serde, for JSON serialization and deserialization:
 
