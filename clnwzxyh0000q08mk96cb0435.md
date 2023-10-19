@@ -4,7 +4,7 @@ seoTitle: "The Power of Rust Lang 101: A Journey into Secure Programming"
 datePublished: Thu Oct 19 2023 09:45:28 GMT+0000 (Coordinated Universal Time)
 cuid: clnwzxyh0000q08mk96cb0435
 slug: the-power-of-rust-lang
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697708278034/dc5b7181-1f95-410d-ac59-010636915395.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697709226578/9873bca2-51d9-4fde-8660-7cc83adb77f7.png
 tags: programming-blogs, security, rust, software-engineering
 
 ---
