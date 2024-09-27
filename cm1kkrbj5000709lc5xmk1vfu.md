@@ -4,7 +4,7 @@ seoTitle: "LINUX Systems Under Attack via Printing System (CUPS)"
 datePublished: Fri Sep 27 2024 10:23:02 GMT+0000 (Coordinated Universal Time)
 cuid: cm1kkrbj5000709lc5xmk1vfu
 slug: linux-systems-under-attack-via-printing-system-cups
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727432203897/d6165091-fa48-4104-a267-dbd165e1b843.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727435276642/b10f0553-326c-449a-ba85-d1579f652a36.png
 tags: linux, security, hacking
 
 ---
