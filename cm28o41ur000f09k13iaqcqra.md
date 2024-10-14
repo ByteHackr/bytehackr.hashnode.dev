@@ -6,6 +6,7 @@ datePublished: Mon Oct 14 2024 07:03:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm28o41ur000f09k13iaqcqra
 slug: api-security-testing-with-damn-vulnerable-api-dvapi
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728889214559/aa354f42-0873-4eef-88bd-86e3d40ebd1f.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728891767596/b33d9305-18d2-45a0-ae47-f5f6f5d24d28.png
 tags: programming-blogs, web-development, security, apis, hacking
 
 ---
