@@ -51,7 +51,7 @@ Block devices, such as hard drives and USB storage, operate by reading and writi
 
 ![USB subsystem in Linux](https://sysplay.in/blog/wp-content/uploads/2013/06/figure_17_usb_subsystem_in_linux.png align="center")
 
-`Figure 02: USB subsystem in Linux`
+`Figure 02: USB Subsystem in Linux`
 
 ### c. **Network Device Drivers**
 
