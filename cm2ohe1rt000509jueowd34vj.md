@@ -243,6 +243,10 @@ This example demonstrates how to implement basic operations (`open()`, `read()`,
 
 Security tip: **Always validate the size of incoming data to prevent buffer overflow attacks**, as shown in the `device_write()` function.
 
+![Working of Character Driver](https://www.opensourceforu.com/wp-content/uploads/2011/02/figure_7_character_driver_overview.png align="left")
+
+`Figure 04: Working of Character Driver`
+
 ---
 
 ## 7\. Writing a Simple Block Device Driver
