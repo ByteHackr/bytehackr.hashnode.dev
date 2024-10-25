@@ -3,7 +3,7 @@ title: "Unlocking the Power of Linux Device Drivers"
 datePublished: Fri Oct 25 2024 08:39:31 GMT+0000 (Coordinated Universal Time)
 cuid: cm2ohe1rt000509jueowd34vj
 slug: unlocking-the-power-of-linux-device-drivers
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729845372383/76ba213e-c898-4e7a-9205-f400863f41c7.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729849550883/7ae752a8-f19b-43ec-8fcc-ed29af7b9204.png
 tags: cpp, linux, security, developer, 2articles1week
 
 ---
