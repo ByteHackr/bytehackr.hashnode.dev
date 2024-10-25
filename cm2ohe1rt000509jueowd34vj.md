@@ -32,8 +32,8 @@ A **device driver** is software that enables communication between the operating
     
     ![Linux Kernel Architecture Diagram](https://zeuzoix.github.io/techeuphoria/images/linux-kernel-architecture-diagram.png align="center")
     
-
-`Linux Kernel Architecture Diagram`
+    `Figure 01: Linux Kernel Architecture Diagram`
+    
 
 ---
 
@@ -51,7 +51,7 @@ Block devices, such as hard drives and USB storage, operate by reading and writi
 
 ![USB subsystem in Linux](https://sysplay.in/blog/wp-content/uploads/2013/06/figure_17_usb_subsystem_in_linux.png align="center")
 
-`USB subsystem in Linux`
+`Figure 02: USB subsystem in Linux`
 
 ### c. **Network Device Drivers**
 
@@ -71,7 +71,7 @@ User space is where user applications run, with restricted access to system reso
 
 ![Kernel vs User Space](https://img.php.cn/upload/article/000/000/164/170710903292042.png align="left")
 
-`Kernel vs User Space`
+`Figure 03: Kernel vs User Space`
 
 ---
 
