@@ -30,8 +30,10 @@ A **device driver** is software that enables communication between the operating
     
 * **Interface Provisioning:** Provides standardized interfaces to user-space applications for communication with hardware.
     
-    ![Linux Kernel Architecture Diagram](https://zeuzoix.github.io/techeuphoria/images/linux-kernel-architecture-diagram.png align="left")
+    ![Linux Kernel Architecture Diagram](https://zeuzoix.github.io/techeuphoria/images/linux-kernel-architecture-diagram.png align="center")
     
+
+Linux Kernel Architecture Diagram
 
 ---
 
@@ -47,7 +49,9 @@ Character devices, like serial ports, sensors, and keyboards, transfer data sequ
 
 Block devices, such as hard drives and USB storage, operate by reading and writing data in blocks. Block drivers enable random access to data, and they interface with the Linux file system and I/O subsystems.
 
-![USB subsystem in Linux](https://sysplay.in/blog/wp-content/uploads/2013/06/figure_17_usb_subsystem_in_linux.png align="left")
+![USB subsystem in Linux](https://sysplay.in/blog/wp-content/uploads/2013/06/figure_17_usb_subsystem_in_linux.png align="center")
+
+*USB subsystem in Linux*
 
 ### c. **Network Device Drivers**
 
@@ -66,6 +70,8 @@ Kernel space is where the Linux kernel operates, with full access to system reso
 User space is where user applications run, with restricted access to system resources. To communicate with the kernel (and device drivers), user programs make system calls such as `open()`, `read()`, and `write()`. These calls allow user-space applications to interact indirectly with hardware through the device drivers.
 
 ![Kernel vs User Space](https://img.php.cn/upload/article/000/000/164/170710903292042.png align="left")
+
+Kernel vs User Space
 
 ---
 
