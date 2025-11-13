@@ -3,7 +3,7 @@ title: "Model Context Protocol (MCP) and Its Security Implications"
 datePublished: Thu Nov 13 2025 13:47:51 GMT+0000 (Coordinated Universal Time)
 cuid: cmhxhhoai000102jpgw9k6vxh
 slug: model-context-protocol-mcp-and-its-security-implications
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763041608466/c244cff9-9b46-48de-9609-7fc4815151c5.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763042197067/37da5ecb-cba4-4331-b934-10d42d6e9b0d.png
 tags: ai, llm, ai-agents, mcp
 
 ---
